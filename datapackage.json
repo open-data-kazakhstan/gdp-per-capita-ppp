@@ -2,7 +2,7 @@
   "bytes": 12143,
   "count_of_rows": 305,
   "hash": "e2955894c1758fe4b3370d224c7d9b15",
-  "name": "gdp-per-capita",
+  "name": "gdp-per-capita-ppp",
   "profile": "data-package",
   "resources": [
     {
