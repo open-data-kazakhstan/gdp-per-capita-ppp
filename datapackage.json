@@ -1,0 +1,57 @@
+{
+  "bytes": 12143,
+  "count_of_rows": 305,
+  "hash": "e2955894c1758fe4b3370d224c7d9b15",
+  "name": "gdp-per-capita",
+  "profile": "data-package",
+  "resources": [
+    {
+      "bytes": 12143,
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "6b9ac876fb29941f3ce322aff1c11943",
+      "name": "gdp-per-capita",
+      "path": "data/gdp-per-capita.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "Country Name",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Country Code",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Year",
+            "type": "year"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Value",
+            "type": "number"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    }
+  ],
+  "title": "GDP per capita (PPP, current international $)"
+}
